@@ -1,5 +1,5 @@
 {
-	"name": "prettier-plugin-js-sort",
+	"name": "prettier-plugin-js-sort-utils",
 	"version": "0.0.1-beta",
 	"description": "",
 	"main": "src/index.js",

@@ -97,8 +97,8 @@ const plugin = {
 	],
 	parsers: {
 		babel: {
-			...prettierBabelParser,
 			parse: parser,
+			...prettierBabelParser,
 		},
 		typescript: {
 			...prettierTypescriptParser,
