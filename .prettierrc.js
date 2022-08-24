@@ -32,12 +32,7 @@ const config = {
 	jsxSingleQuote: true,
 	plugins: [
 		require.resolve('.'),
-		require.resolve('prettier-plugin-sort-imports'),
 	],
-	sortingMethod: 'lineLength',
-	newlineBetweenTypes: true,
-	stripNewlines: true,
-	importTypeOrder: ['NPMPackages', 'localImports'],
 }
 
 module.exports = config
